@@ -1,0 +1,10 @@
+values = {1, 2, 2, 3, 3, 3, 4}
+print(values)
+print("Length is:", len(values))
+print("Length is 4 because set removes duplicate values")
+
+Output:
+
+{1, 2, 3, 4}
+Length is: 4
+Length is 4 because set removes duplicate values
