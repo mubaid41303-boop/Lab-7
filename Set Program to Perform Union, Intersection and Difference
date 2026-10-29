@@ -1,0 +1,25 @@
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+# union - all unique elements
+print("Union A | B:", A | B)
+
+# intersection - common elements
+print("Intersection A & B:", A & B)
+
+# difference
+print("A - B:", A - B)
+print("B - A:", B - A)
+print("They differ because A-B shows elements only in A, B-A shows only in B")
+
+# symmetric difference - in either but not both
+print("Symmetric difference A ^ B:", A ^ B)
+
+Output:
+
+Union A | B: {1, 2, 3, 4, 5, 6}
+Intersection A & B: {3, 4}
+A - B: {1, 2}
+B - A: {5, 6}
+They differ because A-B shows elements only in A, B-A shows only in B
+Symmetric difference A ^ B: {1, 2, 5, 6}
