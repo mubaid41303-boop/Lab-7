@@ -1,0 +1,12 @@
+nums = {1, 2, 3, 4, 5}
+print("Before:", nums)
+
+nums.add(10)
+nums.remove(1)
+
+print("After:", nums)
+
+Output:
+
+Before: {1, 2, 3, 4, 5}
+After: {2, 3, 4, 5, 10}
