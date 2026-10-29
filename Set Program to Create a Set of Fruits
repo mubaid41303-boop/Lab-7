@@ -1,0 +1,6 @@
+fruits = {'apple', 'mango', 'banana', 'orange', 'grapes'}
+print(fruits)
+
+Output:
+
+{'apple', 'mango', 'banana', 'orange', 'grapes'}
